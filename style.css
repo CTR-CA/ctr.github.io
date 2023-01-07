@@ -1,0 +1,18 @@
+.logoImg {
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 0.5rem;
+}
+.logIn {
+  text-align: center;
+}
+.logInButton {
+  margin: 0.5rem;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section {
+}
