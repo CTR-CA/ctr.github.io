@@ -11,8 +11,21 @@
 }
 .container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  border: black solid 1px;
+  align-items: center;
+  padding: 5px;
 }
-.section {
+.section1 {
+}
+.section2 {
+}
+
+.section3 {
+  font-size: 50px;
+}
+.text__heder {
+  flex-basis: 25%;
+  margin: 0%;
+  text-align: center;
 }
