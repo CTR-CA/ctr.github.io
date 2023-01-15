@@ -9,13 +9,17 @@
 .logInButton {
   margin: 0.5rem;
 }
-.container {
+.container__main {
   display: flex;
   border: black solid 1px;
   align-items: center;
   padding: 5px;
   flex: 3 25%;
   flex-wrap: wrap;
+}
+.container__checkbox {
+  display: flex;
+  text-align: center;
 }
 .section1 {
   flex: 1 25%;
