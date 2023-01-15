@@ -1,2 +1,2 @@
-# http://romanstoleru.github.io/
+http://romanstoleru.github.io/
 This project only for practice
