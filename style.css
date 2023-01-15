@@ -1,6 +1,6 @@
 .container__main {
   display: flex;
-  border: black solid 1px;
+
   align-items: center;
   padding: 5px;
   flex: 3 25%;
