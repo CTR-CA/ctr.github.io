@@ -1,3 +1,5 @@
+alert("hola")
+
 const logIn = document.querySelector("[data-loginButton]")
 logIn.addEventListener("click", () => {
     login()
@@ -21,4 +23,5 @@ function login() {
     offScreen.style.display = "block"
     const logInOff = document.querySelector("[data-containerLog]")
     logInOff.style.display = "none"
+    alert("hola")
 }
