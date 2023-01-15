@@ -1,6 +1,6 @@
 .logoImg {
   text-align: center;
-  margin-top: 20%;
+
   margin-bottom: 0.5rem;
 }
 .logIn {
@@ -20,6 +20,7 @@
 .container__checkbox {
   display: flex;
   text-align: center;
+  justify-content: space-around;
 }
 .section1 {
   flex: 1 25%;
