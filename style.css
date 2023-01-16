@@ -47,8 +47,10 @@
   margin-bottom: 2px;
 }
 .header__titel {
+  margin-right: 10px;
   margin-left: 10px;
 }
 .header__list {
+  margin-right: 10px;
   margin-left: 10px;
 }
