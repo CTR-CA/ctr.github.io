@@ -76,3 +76,12 @@ body {
   color: gold;
   text-align: center;
 }
+.container__configuration {
+  display: flex;
+  align-items: center;
+}
+.tablet__config {
+  text-align: center;
+  border: solid 1px white;
+  width: 33%;
+}
