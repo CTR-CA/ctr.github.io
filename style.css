@@ -22,6 +22,8 @@ body {
   color: white;
   text-align: center;
   border-style: unset;
+  margin-right: 2px;
+  margin-left: 2px;
 }
 .section1 {
   flex: 1 25%;
