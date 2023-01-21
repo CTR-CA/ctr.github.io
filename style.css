@@ -66,6 +66,9 @@ body {
 .p__ul {
   margin-bottom: 2px;
 }
+.hr__style {
+  color: gold;
+}
 .footer_style {
   margin-top: 5px;
   border: solid white 1px;
