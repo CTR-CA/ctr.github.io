@@ -41,7 +41,14 @@ body {
   border: solid 1px;
   padding-left: 5px;
 }
-
+.inputForm {
+  height: 80%;
+  width: 95%;
+  background-color: black;
+  margin: auto;
+  border: none;
+  color: white;
+}
 .p {
   color: gold;
   margin: 0px;
@@ -51,8 +58,4 @@ body {
 }
 .p__ul {
   margin-bottom: 2px;
-}
-.header__titel {
-}
-.header__list {
 }
