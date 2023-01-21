@@ -22,6 +22,7 @@ body {
   margin-right: 2px;
   margin-left: 2px;
   width: 50px;
+  border-bottom: 1px solid white;
 }
 .section1 {
   flex: 1 25%;
