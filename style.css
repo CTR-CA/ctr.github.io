@@ -17,6 +17,12 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
+.checkBoxAdds {
+  background-color: black;
+  color: white;
+  text-align: center;
+  border: none;
+}
 .section1 {
   flex: 1 25%;
 }
