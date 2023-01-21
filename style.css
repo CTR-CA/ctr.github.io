@@ -21,6 +21,7 @@ body {
   border-style: unset;
   margin-right: 2px;
   margin-left: 2px;
+  width: 50px;
 }
 .section1 {
   flex: 1 25%;
