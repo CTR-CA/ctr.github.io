@@ -21,7 +21,7 @@ body {
   background-color: black;
   color: white;
   text-align: center;
-  border: none;
+  border-style: unset;
 }
 .section1 {
   flex: 1 25%;
