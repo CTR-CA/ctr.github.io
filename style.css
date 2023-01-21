@@ -59,3 +59,10 @@ body {
 .p__ul {
   margin-bottom: 2px;
 }
+.footer_style {
+  margin-top: 5px;
+  border: solid white 1px;
+  padding: 0%;
+  color: gold;
+  text-align: center;
+}
