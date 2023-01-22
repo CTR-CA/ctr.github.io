@@ -85,6 +85,8 @@ body {
   border: solid 1px white;
   width: 33.33%;
 }
-.configurations__paige {
+.header__config {
   margin-bottom: 5px;
+  border: 1px red;
+  color: white;
 }
