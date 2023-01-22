@@ -78,13 +78,14 @@ body {
 }
 .container__configuration {
   display: flex;
-  align-items: center;
-  height: 50px;
 }
 .tablet__config {
-  text-align: center;
+  display: flex;
   border: solid 1px white;
   width: 33.33%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
 }
 .header__config {
   margin-bottom: 5px;
