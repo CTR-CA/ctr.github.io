@@ -79,6 +79,7 @@ body {
 .container__configuration {
   display: flex;
   align-items: center;
+  height: 50px;
 }
 .tablet__config {
   text-align: center;
