@@ -104,7 +104,7 @@ body {
   display: flex;
   border: solid 1px white;
   width: 33.33%;
-  height: 50px;
+  height: auto;
   justify-content: center;
   align-items: center;
   text-align: center;
