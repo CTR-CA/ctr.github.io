@@ -86,6 +86,7 @@ body {
   height: 50px;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .header__config {
   margin-bottom: 5px;
