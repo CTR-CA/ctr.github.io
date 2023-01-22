@@ -89,8 +89,22 @@ body {
   text-align: center;
 }
 .header__config {
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin-bottom: 0px;
   color: white;
   border: solid 1px white;
+  text-align: center;
+}
+.container__unitIdentific {
+  display: flex;
+}
+.tablet__unitIdentific {
+  display: flex;
+  border: solid 1px white;
+  width: 50.33%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
