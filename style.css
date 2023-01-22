@@ -86,7 +86,7 @@ body {
   width: 33.33%;
 }
 .configurations__tablet {
-  border: solid 1px white;
   margin-bottom: 0px;
   text-align: center;
+  border: 1px white;
 }
