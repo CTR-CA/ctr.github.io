@@ -89,7 +89,8 @@ body {
   text-align: center;
 }
 .header__config {
-  margin-bottom: 5px;
-  border: 1px red;
+  margin-bottom: 0px;
   color: white;
+  border: solid 1px white;
+  text-align: center;
 }
