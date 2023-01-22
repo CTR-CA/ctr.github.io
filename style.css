@@ -83,5 +83,10 @@ body {
 .tablet__config {
   text-align: center;
   border: solid 1px white;
-  width: 33%;
+  width: 33.33%;
+}
+.configurations__tablet {
+  border: solid 1px white;
+  margin-bottom: 0px;
+  text-align: center;
 }
