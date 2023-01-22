@@ -98,6 +98,7 @@ body {
 }
 .container__unitIdentific {
   display: flex;
+  flex-wrap: wrap;
 }
 .tablet__unitIdentific {
   display: flex;
