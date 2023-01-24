@@ -1,0 +1,1 @@
+let costumInform = document.querySelector("[data-button-customerInformation]")
