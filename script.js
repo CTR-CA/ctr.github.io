@@ -21,3 +21,5 @@ pdiSector.addEventListener("click", () => {
         showPdiSector.style.display = "none"
     }
 })
+
+
