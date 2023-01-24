@@ -22,4 +22,15 @@ pdiSector.addEventListener("click", () => {
     }
 })
 
+let settingSector = document.getElementById("settingSector")
+settingSector.addEventListener("click", () => {
+    const showSettingSector = document.getElementById("onOff-settingsSector")
+    if (showSettingSector.style.display === "none") {
+        showSettingSector.style.display = "block"
+
+    }
+    else {
+        showSettingSector.style.display = "none"
+    }
+})
 
