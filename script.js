@@ -13,11 +13,11 @@ costumInform.addEventListener("click", () => {
 let pdiSector = document.getElementById("pdiSector")
 pdiSector.addEventListener("click", () => {
     const showPdiSector = document.getElementById("onOff-pdiSector")
-    if (showInformation.style.display === "none") {
-        showInformation.style.display = "block"
+    if (showPdiSector.style.display === "none") {
+        showPdiSector.style.display = "block"
 
     }
     else {
-        showInformation.style.display = "none"
+        showPdiSector.style.display = "none"
     }
 })
