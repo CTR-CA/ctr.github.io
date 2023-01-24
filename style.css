@@ -119,3 +119,6 @@ body {
   color: rgb(0, 0, 0);
   background-color: rgb(221, 238, 238);
 }
+.onOff-costumerInformation {
+  display: none;
+}

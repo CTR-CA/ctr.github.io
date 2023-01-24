@@ -1,10 +1,11 @@
-let costumInform = document.querySelector("[data-onOff-costumerInformation]")
+let costumInform = document.getElementById("data-button-customerInformation")
 costumInform.addEventListener("click", () => {
-    let showCostumerInformation = document.querySelector(["data-onOff-costumerInformation"])
-    if (showCostumerInformation.style.display === "none") {
-        showCostumerInformation.style.display = "block"
+    const showInformation = document.getElementById("data-onOff-costumerInformation")
+    if (showInformation.style.display === "none") {
+        showInformation.style.display = "block"
+
     }
     else {
-        showCostumerInformation.style.display = "none"
+        showInformation.style.display = "none"
     }
 })
