@@ -118,12 +118,14 @@ body {
   border: solid 2px blue;
   color: rgb(0, 0, 0);
   background-color: rgb(221, 238, 238);
+  width: 150px;
 }
 .report {
   border-radius: 25px;
   border: solid 2px blue;
   color: rgb(0, 0, 0);
   background-color: gold;
+  width: 150px;
 }
 .div_report {
   text-align: center;
