@@ -69,6 +69,8 @@ body {
 }
 .hr__style {
   color: gold;
+  width: 150px;
+  margin: revert;
 }
 .footer_style {
   margin-top: 5px;
