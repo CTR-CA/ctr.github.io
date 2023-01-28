@@ -11,14 +11,23 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./style.css" />
+        <script
+			src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+			integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
     <script defer src="./script.js"></script>
+    <script defer src="./report.js"></script>
+    
     <title>PDI</title>
   </head>
   <body>
     
-<!--BUTTON COSUTMER-->
-<hr class="hr__style">
+<!--BUTTON COSTUMER-->
+<hr class="hr__style"
+id="hr__style__costumer">
 
 <div id="customerInformation" class="buttonCostumerInformation">
 <button class="costumerInformation" type="button">Costumer Sector</button>
@@ -196,10 +205,12 @@ id="onOff-costumerInformation">
                 <li>Within ten (10) days of the in-service date, the unit must be registred with the Carrier Transicold Warranty Department.</li>
                 <li>For completing steps 3 and 4 above, Dealers should refer to the Warranty Administration Policies & Procedures Manual, P/N 62-10068 (Dealer Operating Manual, Section 6,1), for specific instruction. Trailer and truck body OEM's should contact the selling Carrier Transicold Dealer for copies of these detailed instructions.</li>
               </ol>
-              <hr class="hr__style">
+              <hr class="hr__style"
+              id="hr__style__costumer">
               <h4 class="header__titel">Caution: Take all necessary steps to ensure that the unit will not start while technician is working on any moving parts of the unit. Unit can start automaticlly. Disconnect battery cable when appropiate.</h4>
 </div>
-              <hr class="hr__style">
+              <hr class="hr__style"
+              id="hr__style__costumer">
 
 
 <!---------------------------------PDI SECTOR--------------------------------->
@@ -276,7 +287,8 @@ id="onOff-costumerInformation">
                     id="softVersA" 
                     name="softVersA"></lable>
                 </div>
-<hr class="hr__style">
+<hr class="hr__style"
+id="hr__style__pdi">
 <div>
 
 <!--SECTOR "B"-->
@@ -296,7 +308,8 @@ id="onOff-costumerInformation">
                   <input type="checkbox">
                   <lable>Check & Set Data Recorder (See page3)</lable>
                   </div>
-<hr class="hr__style">
+<hr class="hr__style"
+id="hr__style__pdi">
 <div>
 
 <!--SECTOR "C"-->
@@ -369,7 +382,8 @@ id="onOff-costumerInformation">
                   <input type="checkbox">
                   <lable>Check compressor oil level.</lable>
                   </div>                      
-<hr class="hr__style">                                  
+<hr class="hr__style"
+id="hr__style__pdi">                                  
 <div>
 
   <!--SECTOR "D"-->
@@ -385,7 +399,8 @@ id="onOff-costumerInformation">
                     <input type="checkbox">
                     <lable>Open trailer doors. Start unit and enter a -22&#8457 (-30&#8451) Set Point, Continuous Run operation.(In extremly cold weather, enter an 80&#8457 (27&#8451) Set Point) Operate unit for 4-6 hours minimum.</lable>
                     </div>
-<hr class="hr__style">
+<hr class="hr__style"
+id="hr__style__pdi">
 <div>
 
   <!--SECTOR "E"-->
@@ -592,7 +607,8 @@ id="onOff-costumerInformation">
                     <input type="checkbox">
                     <lable>*Clear all Active and Inactive alarms from microprocessor.</lable>
                     </div>
-<hr class="hr__style">
+<hr class="hr__style"
+id="hr__style__pdi">
 <div>
 
   <!--SECTOR "F"-->
@@ -631,7 +647,8 @@ id="onOff-costumerInformation">
 
 
 </div>
-<hr class="hr__style">
+<hr class="hr__style"
+id="hr__style__pdi">
 <!---------------------------------SETTINGS SECTOR--------------------------------->
 <div class="buttonCostumerInformation">
   <button id="settingSector" class="costumerInformation" type="button">Setting Sector</button>
@@ -1461,9 +1478,17 @@ Viewing Preferences</h4>
     
   </div>
   </div>
-  <hr class="hr__style">
+  <hr class="hr__style"
+  id="hr__style">
 <div class="div_report">
-  <button class="report">Create a Report</button>
+  <button class="report" id="report">Create a Report</button>
   </div>
+
+
+
+ 
+		<div id="invoice">
+			<h1>Our Invoice</h1>
+		</div>
 </body>
 </html>
