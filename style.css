@@ -18,7 +18,7 @@ body {
   padding-right: 2px;
   padding-left: 2px;
   width: 50px;
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
   margin-bottom: 2px;
 }
 .section1 {
@@ -135,4 +135,12 @@ body {
 }
 .onOff-settingsSector {
   display: none;
+}
+.sectorS {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.sectorOl {
+  margin-bottom: 2px;
+  color: blue;
 }
