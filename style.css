@@ -56,7 +56,7 @@ body {
   text-align: center;
 }
 .p {
-  color: gold;
+  color: rgb(255, 51, 0);
   margin: 0px;
 }
 .p__div {
@@ -65,16 +65,13 @@ body {
 .p__ul {
   margin-bottom: 2px;
 }
-.hr__style {
-  color: gold;
-  width: 150px;
-  margin: revert;
-}
+
 .footer_style {
   margin-top: 5px;
   border: solid black 1px;
   padding: 0%;
-  color: gold;
+  margin-bottom: 5px;
+  color: rgb(255, 51, 0);
   text-align: center;
 }
 .container__configuration {
