@@ -1,6 +1,5 @@
 body {
   font-family: sans-serif;
-  color: black;
   margin: 10px;
 }
 .container__main {
@@ -14,13 +13,13 @@ body {
   justify-content: space-around;
 }
 .checkBoxAdds {
-  color: black;
   text-align: center;
-  border-style: unset;
-  margin-right: 2px;
-  margin-left: 2px;
+  border-style: none;
+  padding-right: 2px;
+  padding-left: 2px;
   width: 50px;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid;
+  margin-bottom: 2px;
 }
 .section1 {
   flex: 1 25%;
@@ -49,7 +48,6 @@ body {
 .inputForm {
   height: 80%;
   width: 95%;
-
   margin: auto;
   border: none;
   color: black;
