@@ -65,9 +65,8 @@ body {
 }
 
 .footer_style {
-  margin-top: 5px;
+  margin-top: 10px;
   border: solid black 1px;
-  padding: 0%;
   margin-bottom: 10px;
   color: rgb(255, 51, 0);
   text-align: center;
