@@ -11,7 +11,7 @@ function generatePDF() {
 
     doc.html(element, {
         callback: function (doc) {
-            doc.save('document-html.pdf');
+            doc.save('Pre-Delivery Inspection.pdf');
         },
         margin: [10, 10, 10, 10],
         autoParging: 'text',
@@ -20,6 +20,4 @@ function generatePDF() {
         width: 190,
         windowWidth: 675
     })
-
-
 }
