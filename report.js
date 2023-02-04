@@ -1,5 +1,3 @@
-
-
 const button = document.getElementById('report');
 button.addEventListener('click', generatePDF);
 
