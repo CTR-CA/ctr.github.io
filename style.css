@@ -1,7 +1,6 @@
 body {
-  background-color: black;
   font-family: sans-serif;
-  color: white;
+  color: black;
   margin: 10px;
 }
 .container__main {
@@ -15,14 +14,13 @@ body {
   justify-content: space-around;
 }
 .checkBoxAdds {
-  background-color: black;
-  color: white;
+  color: black;
   text-align: center;
   border-style: unset;
   margin-right: 2px;
   margin-left: 2px;
   width: 50px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
 }
 .section1 {
   flex: 1 25%;
@@ -51,10 +49,10 @@ body {
 .inputForm {
   height: 80%;
   width: 95%;
-  background-color: black;
+
   margin: auto;
   border: none;
-  color: white;
+  color: black;
   text-align: center;
 }
 .p {
@@ -74,7 +72,7 @@ body {
 }
 .footer_style {
   margin-top: 5px;
-  border: solid white 1px;
+  border: solid black 1px;
   padding: 0%;
   color: gold;
   text-align: center;
@@ -84,7 +82,7 @@ body {
 }
 .tablet__config {
   display: flex;
-  border: solid 1px white;
+  border: solid 1px black;
   width: 33.33%;
   height: 50px;
   justify-content: center;
@@ -95,8 +93,8 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-bottom: 0px;
-  color: white;
-  border: solid 1px white;
+  color: black;
+  border: solid 1px black;
   text-align: center;
 }
 .container__unitIdentific {
@@ -105,7 +103,7 @@ body {
 }
 .tablet__unitIdentific {
   display: flex;
-  border: solid 1px white;
+  border: solid 1px black;
   width: 33.33%;
   height: auto;
   justify-content: center;
