@@ -15,13 +15,15 @@ body {
 }
 .screen__login {
   text-align: center;
+  padding: 10px;
 }
 .screen__login__form {
   margin: 5px;
-  width: 75% 200px;
+  width: 200px;
   height: 75%;
   border: solid 1px blue;
   background-color: rgb(221, 238, 238);
+  border-radius: 25px;
 }
 
 .container__main {
