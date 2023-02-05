@@ -150,5 +150,5 @@ body {
   color: blue;
 }
 .contentToPrin {
-  display: none;
+  display: block;
 }
