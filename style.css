@@ -12,6 +12,7 @@ body {
   margin-right: auto;
   margin-bottom: 25px;
   border-radius: 25px;
+  max-width: 250px;
 }
 .screen__login {
   text-align: center;
@@ -25,7 +26,7 @@ body {
   background-color: rgb(221, 238, 238);
   border-radius: 25px;
 }
-
+/*-------------------------------------------------------------------*/
 .container__main {
   display: flex;
   padding: 2px;
