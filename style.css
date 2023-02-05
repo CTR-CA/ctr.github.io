@@ -23,6 +23,7 @@ body {
   border: solid 1px blue;
   background-color: rgb(221, 238, 238);
   border-radius: 25px;
+  text-align: center;
 }
 /*-------------------------------------------------------------------*/
 .container__main {
