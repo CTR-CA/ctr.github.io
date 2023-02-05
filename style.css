@@ -18,9 +18,10 @@ body {
 }
 .screen__login__form {
   margin: 5px;
-  width: 75%;
+  width: 75% 200px;
   height: 75%;
-  border: solid 1px black;
+  border: solid 1px blue;
+  background-color: rgb(221, 238, 238);
 }
 
 .container__main {
