@@ -1,7 +1,28 @@
+/*---------------------------BODY---------------------------*/
 body {
   font-family: sans-serif;
   margin: 10px;
 }
+/*---------------------------LOG IN SCREEN---------------------------*/
+.logInscreenDiv {
+  height: auto;
+  width: auto;
+  border: solid 2px blue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  border-radius: 25px;
+}
+.screen__login {
+  text-align: center;
+}
+.screen__login__form {
+  margin: 5px;
+  width: 75%;
+  height: 75%;
+  border: solid 1px black;
+}
+
 .container__main {
   display: flex;
   padding: 2px;
