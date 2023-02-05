@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    
-        <link rel="stylesheet" href="./style.css" />
-        <script
+    <link rel="stylesheet" href="./style.css" />
+    <script
 			src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
 			integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
 			crossorigin="anonymous"
@@ -24,8 +23,9 @@
   </head>
   <body>
 
+<!--DISPLAY CONTENT FOR PRINT-->
+<div class="contentToPrint" id="contentToPrint"> 
 
-    <div id="contentToPrint"> 
 <!--BUTTON COSTUMER-->
 <div id="customerInformation" class="buttonCostumerInformation">
 <button class="costumerInformation" type="button">Costumer Sector</button>
@@ -207,10 +207,7 @@ id="onOff-costumerInformation">
               <h4 class="header__titel">Caution: Take all necessary steps to ensure that the unit will not start while technician is working on any moving parts of the unit. Unit can start automaticlly. Disconnect battery cable when appropiate.</h4>
 </div>
               
-
-
 <!---------------------------------PDI SECTOR--------------------------------->
-
 <div class="buttonCostumerInformation">
   <button id="pdiSector" class="costumerInformation" type="button">PDI Sector</button>
   </div>
@@ -643,6 +640,7 @@ id="onOff-costumerInformation">
   id="onOff-settingsSector">
 
 <h4 class="header__config">Configurations</h4>
+
   <!--SETTINGS SECTOR-->
 <div class="container__configuration">
   <div class="tablet__config">Config Settings</div>
@@ -677,7 +675,6 @@ id="onOff-costumerInformation">
 
 <!--SET POINT SECTOR-->
 <h4 class="header__config">Set Point(s) & Range Lock</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Decimal</div>
   <div class="tablet__unitIdentific">Not Display</div>
@@ -718,7 +715,6 @@ id="onOff-costumerInformation">
   
   <!--START STOP SETTINGS-->
   <h4 class="header__config">Set Point(s) & Range Lock</h4>
-
   <div class="container__unitIdentific">
     <div class="tablet__unitIdentific">Current for S/S ShutOff</div>
     <div class="tablet__unitIdentific">7.0 AMPS</div>
@@ -752,7 +748,6 @@ id="onOff-costumerInformation">
 
 <!--INTELLISET SETTINGS-->
 <h4 class="header__config">Intelliset & Productshield</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Enable Intelliset AT=Key</div>
   <div class="tablet__unitIdentific">NO</div>
@@ -793,7 +788,6 @@ id="onOff-costumerInformation">
 
 <!--ENGINE SETTINGS-->
 <h4 class="header__config">Engine Settings</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Glow Time:</div>
   <div class="tablet__unitIdentific">Intake Heater</div>
@@ -862,7 +856,6 @@ id="onOff-costumerInformation">
 
 <!--ALARM SETTINGS-->
 <h4 class="header__config">Allarm Settings</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Out of Range:</div>
   <div class="tablet__unitIdentific">NO</div>
@@ -918,7 +911,6 @@ id="onOff-costumerInformation">
 <!--HOURE METERS-->
 <h4 class="header__config">Houre Meters<br>
 Viewable Standard Meters</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Display Total Engine HR:</div>
   <div class="tablet__unitIdentific">YES</div>
@@ -938,7 +930,6 @@ Viewable Standard Meters</h4>
 
 <!--SET PM CONFIGURATION-->
 <h4 class="header__config">Set PM Configurations</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">PM 1 Config:</div>
   <div class="tablet__unitIdentific">OFF</div>
@@ -979,7 +970,6 @@ Viewable Standard Meters</h4>
 
 <!--REMOTE SENSORE-->
 <h4 class="header__config">Remote Sensors</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Remote Temp Sensor 1:</div>
   <div class="tablet__unitIdentific">OFF</div>
@@ -1013,7 +1003,6 @@ Viewable Standard Meters</h4>
 
   <!--OTHER SETTINGS-->
 <h4 class="header__config">Other Settings</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Enable Advance User Mode:</div>
   <div class="tablet__unitIdentific">NO</div>
@@ -1061,7 +1050,6 @@ Viewable Standard Meters</h4>
 
   <!--RAIL SETTINGS-->
 <h4 class="header__config">Rail Settings</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Unit Operation:</div>
   <div class="tablet__unitIdentific">Standard</div>
@@ -1074,7 +1062,6 @@ Viewable Standard Meters</h4>
 
   <!--AUTO FRESH AIR SETTINGS-->
 <h4 class="header__config">Auto Fresh Ait Settings</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Autofreash Air:</div>
   <div class="tablet__unitIdentific">Not Installed</div>
@@ -1087,7 +1074,6 @@ Viewable Standard Meters</h4>
 
   <!--ENGINE EMISSIONS SYSTEM SETTINGS-->
 <h4 class="header__config">Engine Emissions System Settings</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">EES:</div>
   <div class="tablet__unitIdentific"></div>
@@ -1100,7 +1086,6 @@ Viewable Standard Meters</h4>
 
   <!--FUNTIONAL PARAMETERS-->
 <h4 class="header__config">Funtional Parameters</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Funtional Settings:</div>
   <div class="tablet__unitIdentific">Factory Settings</div>
@@ -1109,7 +1094,6 @@ Viewable Standard Meters</h4>
 
   <!--ECONOMY SETTINGS-->
 <h4 class="header__config">Economy Settings</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Low Speed Dalay S/S:</div>
   <div class="tablet__unitIdentific">10 mins</div>
@@ -1136,7 +1120,6 @@ Viewable Standard Meters</h4>
 
   <!--TEMPERATURE SETTINGS-->
 <h4 class="header__config">Temperatur Settings</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Defrost Time Set For:</div>
   <div class="tablet__unitIdentific">6 HRS</div>
@@ -1170,7 +1153,6 @@ Viewable Standard Meters</h4>
 
   <!--START-STOP SETTINGS-->
 <h4 class="header__config">Start-Stop Settings</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Min Run Time:</div>
   <div class="tablet__unitIdentific">4 Mins</div>
@@ -1226,7 +1208,6 @@ Viewable Standard Meters</h4>
   <!--OVERRIDES SETTINGS-->
 <h4 class="header__config">Overrides<br>
 Viewing Preferences</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Display Temperatures In:</div>
   <div class="tablet__unitIdentific">&#8457</div>
@@ -1268,7 +1249,6 @@ Viewing Preferences</h4>
 
   <!--DATA RECORD SETTINGS-->
 <h4 class="header__config">Data Record Setup</h4>
-
 <div class="container__unitIdentific">
   <div class="tablet__unitIdentific">Sensors</div>
   <div class="tablet__unitIdentific">Factory Settings</div>
@@ -1399,8 +1379,6 @@ Viewing Preferences</h4>
     type="text"
     id="trailerModel" 
     name="trailerModel"></div>
-    
-    
       <div class="tablet__unitIdentific">Events</div>
       <div class="tablet__unitIdentific">Factory Settings</div>
       <div class="tablet__unitIdentific">Changed to</div>
@@ -1464,6 +1442,7 @@ Viewing Preferences</h4>
   </div>
   </div>
  
+  <!--BUTTON REPORT-->
 <div class="div_report">
   <button class="report" id="report">Create a Report</button>
   </div>

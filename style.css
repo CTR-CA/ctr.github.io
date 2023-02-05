@@ -95,6 +95,7 @@ body {
   color: black;
   border: solid 1px black;
   text-align: center;
+  background-color: rgb(221, 238, 238);
 }
 .container__unitIdentific {
   display: flex;
@@ -147,4 +148,7 @@ body {
 .sectorOl {
   margin-bottom: 2px;
   color: blue;
+}
+.contentToPrin {
+  display: none;
 }
