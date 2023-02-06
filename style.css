@@ -20,7 +20,7 @@ body {
   margin: 5px;
   width: 200px;
   height: 75%;
-  border: solid 1px blue;
+  border: solid 2px blue;
   background-color: rgb(221, 238, 238);
   border-radius: 25px;
   text-align: center;
@@ -32,7 +32,7 @@ body {
 .button__login {
   text-align: center;
   margin: auto;
-  border: solid 1px blue;
+  border: solid 2px blue;
   border-radius: 25px;
   background-color: rgb(221, 238, 238);
   padding-left: 10px;
