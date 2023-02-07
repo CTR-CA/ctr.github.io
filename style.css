@@ -5,9 +5,7 @@ body {
 }
 /*---------------------------BACKGROUND IMG---------------------------*/
 .background__img {
-  background-image: url("./img/logo_update.png");
-
-  opacity: 0.03;
+  background-image: url("./img/logo_update_2.png");
 }
 
 /*---------------------------LOG IN SCREEN---------------------------*/
