@@ -48,6 +48,12 @@ body {
   padding-right: 10px;
 }
 /*-------------------------------------------------------------------*/
+/*---------------------------USER DATA---------------------------*/
+.userData {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+/*-------------------------------------------------------------------*/
 .container__main {
   display: flex;
   padding: 2px;
@@ -161,6 +167,7 @@ body {
 .buttonCostumerInformation {
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 .costumerInformation {
   border-radius: 25px;

@@ -1,5 +1,14 @@
+
+
+
+
+
 let login = document.getElementById("log__in")
 login.addEventListener("click", () => {
+
+    const userData = document.getElementById("userName").value
+    console.log(userData)
+
     let showBody = document.getElementById('on__off__body__style')
     console.log("")
 
