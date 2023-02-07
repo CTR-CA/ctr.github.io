@@ -6,6 +6,11 @@ login.addEventListener("click", () => {
     if (showBody.style.display === "none") {
         showBody.style.display = "block"
     }
+    if (showBody.style.display = "block") {
+        let logInOff = document.getElementById('logInscreenDiv')
+        logInOff.style.display = "none"
+
+    }
     else {
         showBody.style.display = "none"
     }
