@@ -3,6 +3,12 @@ body {
   font-family: sans-serif;
   margin: 10px;
 }
+/*---------------------------BACKGROUND IMG---------------------------*/
+.background__img {
+  background-image: url("./img/logo_update.png");
+  opacity: 0.05;
+}
+
 /*---------------------------LOG IN SCREEN---------------------------*/
 .logInscreenDiv {
   border: solid 2px blue;
