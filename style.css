@@ -5,7 +5,7 @@ body {
 }
 /*---------------------------BACKGROUND IMG---------------------------*/
 .background__img {
-  background-image: url("./img/logo_test.png");
+  background-image: url("./img/logo_test_ed.png");
 }
 
 /*---------------------------LOG IN SCREEN---------------------------*/
@@ -55,6 +55,7 @@ body {
   justify-content: space-around;
 }
 .checkBoxAdds {
+  background-color: transparent;
   text-align: center;
   border-style: none;
   padding-right: 2px;
