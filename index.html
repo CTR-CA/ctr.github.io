@@ -16,13 +16,15 @@
     <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.7/dist/html2canvas.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jspdf-html2canvas@latest/dist/jspdf-html2canvas.min.js"></script>
     <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+    <script defer src="./login.js"></script>
     <script defer src="./script.js"></script>
     <script defer src="./report.js"></script>
+    
     
     <title>PDI</title>
   </head>
   <body>
-<!---------------------------------BACKGROUND IMG START--------------------------------->    
+<!---------------------------------BACKGROUND DIV IMG START--------------------------------->    
 <div class="background__img">
 <!--DISPLAY CONTENT FOR PRINT-->
 <div class="contentToPrint" id="contentToPrint"> 
@@ -33,13 +35,17 @@
    
     <label class="screen__login__label" for="userName"><b>User Name</b></label>
     <input class="screen__login__form" action="get" type="text" id="userName">
-<!--LOGIN BUTTON-->
+<!---------------------------------LOGIN BUTTON START--------------------------------->
 </div>
 <div class="container__login__screen">
-<button class="button__login">LogIn</button>
+<button class="button__login" id="log__in">LogIn</button>
 </div>
 </div>
+<!---------------------------------LOGIN BUTTON END--------------------------------->
+<!---------------------------------BODY DISPLAY OFF ON START--------------------------------->
+<div class="on__off__body" id="on__off__body__style">
 
+<div>
 <!--BUTTON COSTUMER-->
 <div id="customerInformation" class="buttonCostumerInformation">
 <button class="costumerInformation" type="button">Costumer Sector</button>
@@ -1454,14 +1460,16 @@ Viewing Preferences</h4>
   </div>
   </div>
 </div>
+
+
   <!--BUTTON REPORT-->
 <div class="div_report">
   <button class="report" id="report">Create a Report</button>
   </div>
 
-
-  
-<!---------------------------------BACKGROUND IMG END---------------------------------> 
+<!---------------------------------BODY DISPLAY OFF ON END---------------------------------> 
+  </div>
+<!---------------------------------BACKGROUND DIV IMG END---------------------------------> 
 </div>
 </body>
 </html>

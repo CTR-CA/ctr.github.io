@@ -3,11 +3,15 @@ body {
   font-family: sans-serif;
   margin: 10px;
 }
+.on__off__body {
+  display: none;
+}
+/*-------------------------------------------------------------------*/
 /*---------------------------BACKGROUND IMG---------------------------*/
 .background__img {
   background-image: url("./img/logo_test_ed.png");
 }
-
+/*-------------------------------------------------------------------*/
 /*---------------------------LOG IN SCREEN---------------------------*/
 .logInscreenDiv {
   border: solid 2px blue;
