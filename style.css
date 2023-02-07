@@ -6,7 +6,8 @@ body {
 /*---------------------------BACKGROUND IMG---------------------------*/
 .background__img {
   background-image: url("./img/logo_update.png");
-  opacity: 0.05;
+
+  opacity: 0.03;
 }
 
 /*---------------------------LOG IN SCREEN---------------------------*/
