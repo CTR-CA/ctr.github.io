@@ -24,7 +24,7 @@ function dataDone() {
     userDataWrite.innerHTML = `Name:${userData}`
 
     const dateTime = new Date();
-    document.getElementById("dateTime").innerHTML = dateTime;
+    document.getElementById("dateTimeStart").innerHTML = dateTime;
 
     let showBody = document.getElementById('on__off__body__style')
     console.log("done")
