@@ -1,7 +1,6 @@
 const button = document.getElementById('report');
 button.addEventListener('click', () => {
-    const dateTimeEnd = new Date();
-    document.getElementById("dateTimeEnd").innerHTML = dateTimeEnd;
+   
     generatePDF()
 });
 
