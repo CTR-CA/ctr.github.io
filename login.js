@@ -1,18 +1,13 @@
 let login = document.getElementById("log__in")
 login.addEventListener("click", () => {
-
     const userData = document.getElementById("userName").value.toUpperCase()
-
     if (!userData == ``) {
         dataDone()
     }
     else {
         alert("try again")
     }
-
-
 })
-
 
 function dataDone() {
     const userData = document.getElementById("userName").value.toUpperCase()
