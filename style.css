@@ -105,6 +105,7 @@ body {
   text-align: center;
 }
 .bodyTable {
+  border-radius: 25px;
   align-items: center;
   display: flex;
   width: 80%;

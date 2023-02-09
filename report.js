@@ -1,5 +1,8 @@
 const button = document.getElementById('report');
 button.addEventListener('click', () => {
+    if (contentToPrint.style.display === "none") {
+        contentToPrint.style.display = "block"
+    }
     generatePDF()
 });
 
