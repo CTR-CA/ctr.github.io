@@ -21,7 +21,7 @@ login.addEventListener("click", () => {
 function dataDone() {
     const userData = document.getElementById("userName").value.toUpperCase()
     const userDataWrite = document.getElementById("userData")
-    userDataWrite.innerHTML = `NAME:${userData}`
+    userDataWrite.innerHTML = `Name:${userData}`
 
     const dateTime = new Date();
     document.getElementById("dateTime").innerHTML = dateTime;
