@@ -6,6 +6,9 @@ login.addEventListener("click", () => {
     const userDataWrite = document.getElementById("userData")
     userDataWrite.innerHTML = `NAME:${userData}`
 
+    const d = new Date();
+    document.getElementById("data").innerHTML = d;
+
     let showBody = document.getElementById('on__off__body__style')
     console.log("")
 
