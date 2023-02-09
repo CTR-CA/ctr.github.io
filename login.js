@@ -5,7 +5,15 @@ login.addEventListener("click", () => {
         dataDone()
     }
     else {
-        alert("try again")
+        Swal.fire({
+            title: 'Username required',
+            showClass: {
+                popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+                popup: 'animate__animated animate__fadeOutUp'
+            }
+        })
     }
 })
 
