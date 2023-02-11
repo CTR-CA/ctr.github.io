@@ -37,4 +37,3 @@ settingSector.addEventListener("click", () => {
         showSettingSector.style.display = "none"
     }
 })
-

@@ -7,10 +7,11 @@ button.addEventListener('click', () => {
 function generatePDF() {
     window.jsPDF = window.jspdf.jsPDF;
     let doc = new jsPDF();
+
+
+
     const userDataReport = document.getElementById("userName").value.toUpperCase()
-
     const dateTime = new Date();
-
     const element = document.getElementById('contentToPrint');
 
     doc.html(element, {
