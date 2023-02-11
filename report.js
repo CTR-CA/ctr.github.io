@@ -1,12 +1,13 @@
 const button = document.getElementById('report');
 button.addEventListener('click', () => {
-   
+
     generatePDF()
 });
 
 function generatePDF() {
     window.jsPDF = window.jspdf.jsPDF;
     let doc = new jsPDF();
+
     const element = document.getElementById('contentToPrint');
 
     doc.html(element, {
