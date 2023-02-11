@@ -7,12 +7,14 @@ button.addEventListener('click', () => {
 function generatePDF() {
     window.jsPDF = window.jspdf.jsPDF;
     let doc = new jsPDF();
+    const userDataReport = document.getElementById("userName").value.toUpperCase()
 
+    const dateTime = new Date();
     const element = document.getElementById('contentToPrint');
 
     doc.html(element, {
         callback: function (doc) {
-            doc.save(`Pre-Delivery Inspection.pdf`);
+            doc.save(`${userDataReport}_${dateTime}_PDI.pdf`);
         },
         margin: [10, 5, 5, 10],
         autoParging: 'text',
