@@ -10,6 +10,7 @@ function generatePDF() {
     const userDataReport = document.getElementById("userName").value.toUpperCase()
 
     const dateTime = new Date();
+
     const element = document.getElementById('contentToPrint');
 
     doc.html(element, {
