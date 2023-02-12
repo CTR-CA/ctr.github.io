@@ -41,11 +41,3 @@ function dataDone() {
         showBody.style.display = "none"
     }
 }
-
-
-
-
-
-
-
-

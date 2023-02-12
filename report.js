@@ -56,4 +56,3 @@ function generatePDF() {
         windowWidth: 675
     })
 }
-console.log('test')
