@@ -6,25 +6,31 @@ button.addEventListener('click', () => {
 
 function afterPrintReport() {
 
-    const afterprint1 = document.querySelector("onOff-costumerInformation")
+    const afterprint1 = document.getElementById('onOff-costumerInformation')
 
     if (afterprint1.style.display === "none") {
         afterprint1.style.display = "block"
 
+    } else {
+        afterprint1.style.display = "block"
     }
 
-    const afterprint2 = document.querySelector("onOff-pdiSector")
+    const afterprint2 = document.getElementById('onOff-pdiSector')
 
-    if (afterprint2.style.display === "none") {
+    if (afterprint2.style.display == "none") {
         afterprint2.style.display = "block"
 
+    } else {
+        afterprint2.style.display = "block"
     }
 
-    const afterprint3 = document.querySelector("onOff-settingsSector")
+    const afterprint3 = document.getElementById('onOff-settingsSector')
 
-    if (afterprint3.style.display === "none") {
+    if (afterprint3.style.display == "none") {
         afterprint3.style.display = "block"
 
+    } else {
+        afterprint3.style.display = "block"
     }
 
 
