@@ -76,14 +76,25 @@ body {
 }
 
 /*-------------------------------------------------------------------*/
+/*---------------------------TEXT AREA BUTTON---------------------------*/
+.add__text__area__div {
+  margin: 15px;
+  text-align: center;
+}
+.add__text__area__button {
+  text-align: center;
+  border: solid 2px blue;
+}
+/*-------------------------------------------------------------------*/
 /*---------------------------TEXT AREA COMMENTS---------------------------*/
 .text__area__div {
   margin: 15px;
   text-align: center;
-  background-color: transparent;
 }
-.text_area {
-  background-color: rgb(221, 238, 238);
+.text__area__from {
+  background: transparent;
+  text-align: center;
+  border: solid 1px rgb(221, 238, 238);
 }
 /*-------------------------------------------------------------------*/
 .container__main {
