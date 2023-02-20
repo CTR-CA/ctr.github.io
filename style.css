@@ -69,6 +69,11 @@ body {
 .technician__sector {
   display: none;
 }
+.technician__sector__style {
+  width: auto;
+  height: auto;
+  background-color: rgb(221, 238, 238);
+}
 
 /*-------------------------------------------------------------------*/
 /*---------------------------TEXT AREA COMMENTS---------------------------*/
