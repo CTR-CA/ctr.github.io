@@ -70,7 +70,9 @@ body {
 .container__main {
   display: flex;
   padding: 2px;
+  max-width: 500px;
   justify-content: center;
+  margin: auto;
 }
 .container__checkbox {
   display: flex;
