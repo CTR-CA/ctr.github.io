@@ -79,6 +79,10 @@ body {
 /*---------------------------TEXT AREA COMMENTS---------------------------*/
 .text__area__div {
   text-align: center;
+  background-color: transparent;
+}
+.text_area {
+  background-color: rgb(221, 238, 238);
 }
 /*-------------------------------------------------------------------*/
 .container__main {
