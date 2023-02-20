@@ -66,6 +66,10 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+.technician__sector {
+  display: none;
+}
+
 /*-------------------------------------------------------------------*/
 .container__main {
   display: flex;

@@ -12,6 +12,17 @@ costumInform.addEventListener("click", () => {
     }
 })
 
+let technicianInfo = document.getElementById("technician__sector__button")
+technicianInfo.addEventListener("click", () => {
+    const showTechInfo = document.getElementById("technician__sector")
+    if (showTechInfo.style.display === "none") {
+        showTechInfo.style.display = "block"
+    }
+    else {
+        showTechInfo.style.display = "none"
+    }
+})
+
 let pdiSector = document.getElementById("pdiSector")
 pdiSector.addEventListener("click", () => {
     const showPdiSector = document.getElementById("onOff-pdiSector")
