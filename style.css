@@ -78,6 +78,7 @@ body {
 /*-------------------------------------------------------------------*/
 /*---------------------------TEXT AREA COMMENTS---------------------------*/
 .text__area__div {
+  margin: 15px;
   text-align: center;
   background-color: transparent;
 }
