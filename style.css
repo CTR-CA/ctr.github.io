@@ -92,6 +92,7 @@ body {
   text-align: center;
 }
 .text__area__from {
+  width: auto;
   background: transparent;
   text-align: center;
   border: solid 1px rgb(221, 238, 238);
