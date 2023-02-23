@@ -49,3 +49,13 @@ settingSector.addEventListener("click", () => {
     }
 })
 
+let textAreaButton = document.getElementById("text__area__button")
+textAreaButton.addEventListener("click", () => {
+    const textArea = document.getElementById("text_area")
+
+    if (textArea.style.display === "none") {
+        textArea.style.display = "block"
+    } else {
+        textArea.style.display = "none"
+    }
+})

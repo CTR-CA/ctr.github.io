@@ -93,10 +93,13 @@ body {
 /*-------------------------------------------------------------------*/
 /*---------------------------TEXT AREA COMMENTS---------------------------*/
 .text__area__div {
+  display: flex;
+  justify-content: center;
   margin: 15px;
   text-align: center;
 }
-.text__area__from {
+.container__text__area__from {
+  display: none;
   width: auto;
   background: transparent;
   text-align: center;
